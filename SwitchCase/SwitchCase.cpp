@@ -71,6 +71,7 @@ int main() {
 
 		default:
 			cout << "Menu yang dipilih tidak tersedia, silahkan pilih lagi" << endl;
+			system("pause");
 			break;
 		}
 	} while (pilihan != 5);
