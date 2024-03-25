@@ -69,5 +69,5 @@ int main() {
 			cout << "Menu yang dipilih tidak tersedia, silahkan pilih lagi" << endl;
 			break;
 		}
-	}
+	} while (pilihan != 5);
 }
