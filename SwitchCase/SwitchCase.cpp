@@ -61,6 +61,13 @@ int main() {
 			cout << "Hasil Pembagian = " << pembagian(a, b) << endl;
 			system("pause");
 			break;
+
+		case 5:
+			break;
+
+		default:
+			cout << "Menu yang dipilih tidak tersedia, silahkan pilih lagi" << endl;
+			break;
 		}
 	}
 }
